@@ -14,8 +14,8 @@ Vercel: https://vercel.com/everyday-edit/overseas-shopping
 - Local 320px detail is 300px wide; Escape restores focus to its product trigger. Production 390/320px cart and document have no horizontal overflow. Viewports were simulated, not physical phones.
 - Observed production browser console warnings/errors: none during the tested journey.
 - Anonymous HTTPS request returned HTTP 200 and the expected page title. No login required for the production domain.
-- Vercel showed Ready for initial commit 8f788df; Git integration is main production, Root Directory app, Vite, npm ci, npm run build, dist. Final documentation/cleanup push verifies continuous deployment separately.
+- Vercel showed Ready for initial commit 8f788df; Git integration is main production, Root Directory app, Vite, npm ci, npm run build, dist. Subsequent main commit 3d0cf24 automatically deployed successfully; Vercel commit status success confirmed.
 
 ## Limits
 
-Demo only: no backend, inventory, account, real checkout, taxes or shipping. No Safari/Firefox, physical-phone, comprehensive accessibility or load-testing claim. GitHub Actions status is tracked in the repository; this report does not assume a successful remote CI run merely because local tests passed.
+Demo only: no backend, inventory, account, real checkout, taxes or shipping. No Safari/Firefox, physical-phone, comprehensive accessibility or load-testing claim. Remote GitHub Actions run 38514226566 completed successfully, including npm ci, npm test and npm run build. Evidence: https://github.com/BernardZhang/overseas-shopping/actions/runs/38514226566
