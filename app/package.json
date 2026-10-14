@@ -1,14 +1,14 @@
 {
   "name": "everyday-edit",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node --experimental-strip-types tests/logic.test.mjs"
+    "test": "node tests/logic.test.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.56.0",
@@ -25,6 +25,6 @@
     "vite": "^8.3.0"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.18.0"
   }
 }

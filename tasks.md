@@ -1,15 +1,17 @@
-# Automatic delivery plan
+# Automatic delivery task record
 
-Authorized 2026-10-14. Earlier human Review gate is removed. Reuse existing work and deploy concurrently with validation.
+User authorized no human Review and automatic deployment on 2026-10-14.
 
-|Task|Status|
+|Task|Result|
 |---|---|
-|Inspect existing code and plans|Done|
-|Production build and domain tests|Passed|
-|Prepare documentation and CI|Done|
-|Push initial working version to GitHub|In progress|
-|Create Vercel Hobby project and Git integration|In progress|
-|Desktop/mobile and persistence verification|In progress|
-|Public HTTPS verification and delivery|Pending deployment|
+|Inspect existing application and plans|Completed; reused the existing React/TS/Vite initial implementation|
+|Specification and agent rules|Updated to current authorization|
+|Dependencies, tests, production build|Passed|
+|GitHub main source and CI workflow|Pushed|
+|Vercel Hobby account and repository integration|Created with explicit authorization, only overseas-shopping enabled|
+|First deployment|Ready, public HTTPS 200|
+|Desktop/mobile and persistence verification|Passed tested scenarios; see docs/VERIFICATION.md|
+|Final cleanup/docs push|Continuous deployment verification in progress|
 
-Automatically repair observed failures and retest. Disclose external account blockers and never fabricate links.
+Live: https://overseas-shopping.vercel.app/
+Repository: https://github.com/BernardZhang/overseas-shopping
